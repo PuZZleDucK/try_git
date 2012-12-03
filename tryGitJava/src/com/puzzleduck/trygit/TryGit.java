@@ -60,10 +60,12 @@ public class TryGit {
 		JPanel mainPanel = new JPanel();
 		mainWindow.getContentPane().add(mainPanel);
 
-		JLabel versionLabel = new JLabel("v0.1.0");
+		JLabel versionLabel = new JLabel("v0.1.1");
 		mainPanel.add(versionLabel);
 		JLabel versionTagline = new JLabel("Try Git has evolved into a monster");
 		mainPanel.add(versionTagline);
+		JLabel anotherTagline = new JLabel("Predictable huh?");
+		mainPanel.add(anotherTagline);
 		
 		//...
 		
